@@ -3,7 +3,7 @@
 """
 Created on Sun Apr 20 13:52:41 2025
 
-@author: ayechanaung
+@author: khantzaylin
 """
 
 import streamlit as st
@@ -20,7 +20,7 @@ with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
     
 #set title application
-st.title("Image Classification with MobileNetV2 by Aye Chan Aung")
+st.title("Image Classification with MobileNetV2 by Khant Zay Lin")
 
 #file upload
 upload_file = st.file_uploader("Upload image:", type=["jpg", "jpeg", "png"])
